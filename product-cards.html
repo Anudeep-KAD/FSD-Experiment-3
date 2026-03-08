@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Product Cards</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f3f5f7;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.container{
+    display:flex;
+    gap:30px;
+}
+
+.card{
+    background:white;
+    width:260px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.image{
+    height:150px;
+    background:#dfe5ea;
+    border-radius:12px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.image-box{
+    width:70px;
+    height:70px;
+    background:#c9d2da;
+    border-radius:10px;
+}
+
+h3{
+    margin:10px 0;
+}
+
+.price{
+    font-size:20px;
+    font-weight:bold;
+}
+
+.stock{
+    display:inline-block;
+    padding:8px 15px;
+    border-radius:20px;
+    margin-top:10px;
+    font-size:14px;
+}
+
+.in{
+    background:#d7f3e1;
+    color:#1f7a46;
+}
+
+.out{
+    background:#f8d7da;
+    color:#b02a37;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="card">
+        <div class="image">
+            <div class="image-box"></div>
+        </div>
+        <h3>Wireless Headphones</h3>
+        <div class="price">$129.99</div>
+        <div class="stock in">In Stock</div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <div class="image-box"></div>
+        </div>
+        <h3>Mechanical Keyboard</h3>
+        <div class="price">$89.99</div>
+        <div class="stock out">Out of Stock</div>
+    </div>
+
+    <div class="card">
+        <div class="image">
+            <div class="image-box"></div>
+        </div>
+        <h3>Smart Watch</h3>
+        <div class="price">$199.99</div>
+        <div class="stock in">In Stock</div>
+    </div>
+
+</div>
+
+</body>
+</html>
